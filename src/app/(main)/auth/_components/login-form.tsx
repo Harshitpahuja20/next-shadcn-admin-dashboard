@@ -90,7 +90,7 @@ export function LoginForm() {
             </FormItem>
           )}
         />
-        <Button className="w-full" type="submit">
+        <Button style={{ backgroundColor: "#FF6A1D", color: "white" }} className="w-full" type="submit">
           Login
         </Button>
       </form>
