@@ -1,13 +1,15 @@
 "use client";
 
-// External imports
+// 1️⃣ Framework imports
 import { useRouter } from "next/navigation";
+
+// 2️⃣ Third-party imports
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { z } from "zod";
 
-// Internal imports
+// 3️⃣ Internal/project imports
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
